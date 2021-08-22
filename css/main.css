@@ -1,0 +1,67 @@
+* {
+  box-shadow: 0 0 0px black;
+}
+
+.vh50 {
+  min-height: 50vh;
+}
+
+.bimg {
+  background-size: cover;
+  background-position: bottom;
+}
+@media (max-width:1920px){
+  .img-one {
+    background-image: url(/img/one-min.jpg);
+  }
+
+  .img-two {
+    background-image: url(/img/two-min.jpg);
+  }
+
+  .img-three {
+    background-image: url(/img/three-min.jpg);
+  }
+}
+
+@media (max-width:1440px){
+  .img-one {
+    background-image: url(/img/25/one-min.jpg);
+  }
+  
+  .img-two {
+    background-image: url(/img/25/two-min.jpg);
+  }
+  
+  .img-three {
+    background-image: url(/img/25/three-min.jpg);
+  }
+}
+
+@media (max-width:960px){
+  .img-one {
+    background-image: url(/img/25/one-min.jpg);
+  }
+  
+  .img-two {
+    background-image: url(/img/25/two-min.jpg);
+  }
+  
+  .img-three {
+    background-image: url(/img/25/three-min.jpg);
+  }
+}
+
+@media (max-width:480px){
+  .img-one {
+    background-image: url(/img/75/one-min.jpg);
+  }
+  
+  .img-two {
+    background-image: url(/img/75/two-min.jpg);
+  }
+  
+  .img-three {
+    background-image: url(/img/75/three-min.jpg);
+  }
+}
